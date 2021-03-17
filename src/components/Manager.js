@@ -3,7 +3,7 @@ import {Route, Redirect} from "react-router-dom"
 import {Login} from "./auth/Login"
 import {Register} from "./auth/Register"
 import NavBar from "./nav/NavBar"
-import {ApplicationViews} from "./ApplicationViews"
+import {App} from "./App"
 import "./Manager.css"
 
 export const Manager = () => {
@@ -14,7 +14,7 @@ export const Manager = () => {
           return (
             <>
               <NavBar />
-              <ApplicationViews />
+              <App />
             </>
           )
         } else {
