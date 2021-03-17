@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Aaron",
+      "lastName": "Frankenfield",
+      "email": "aaronfrankenfield@gmail.com"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Mega Man",
+      "statusId": 1,
+      "genreId": 1,
+      "publisherId": 2
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "name": "played"
+    },
+    {
+      "id": 2,
+      "name": "next"
+    },
+    {
+      "id": 3,
+      "name": "playing"
+    }
+  ],
+  "genre": [
+    {
+      "id": 1,
+      "name": "action"
+    }
+  ],
+  "publisher": [
+    {
+      "id": 1,
+      "name": "Electronic Arts"
+    },
+    {
+      "id": 2,
+      "name": "Capcom"
+    }
+  ]
+}
