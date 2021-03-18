@@ -3,10 +3,10 @@ import {Route, Redirect} from "react-router-dom"
 import {Login} from "./auth/Login"
 import {Register} from "./auth/Register"
 import NavBar from "./nav/NavBar"
-import {App} from "./App"
+// import {App} from "./App"
 import "./Manager.css"
 
-export const Manager = () => {
+export const Manager = () => (
   <>
     <Route
       render={() => {
@@ -14,7 +14,7 @@ export const Manager = () => {
           return (
             <>
               <NavBar />
-              <App />
+              {/* <App /> */}
             </>
           )
         } else {
@@ -29,4 +29,4 @@ export const Manager = () => {
       <Register />
     </Route>
   </>
-}
+)
