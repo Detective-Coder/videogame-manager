@@ -2,9 +2,10 @@ import React from "react"
 import {Route, Redirect} from "react-router-dom"
 import {Login} from "./auth/Login"
 import {Register} from "./auth/Register"
-import NavBar from "./nav/NavBar"
-// import {App} from "./App"
+import {NavBar} from "./nav/NavBar"
+import {ApplicationViews} from "./ApplicationViews"
 import "./Manager.css"
+import {GameProvider} from "./game/GameProvider"
 
 export const Manager = () => (
   <>
@@ -13,8 +14,10 @@ export const Manager = () => (
         if (localStorage.getItem("manager_user")) {
           return (
             <>
+            <GameProvider>
               <NavBar />
-              {/* <App /> */}
+              {/* <ApplicationViews /> */}
+            </GameProvider>
             </>
           )
         } else {
