@@ -16,7 +16,7 @@ export const Manager = () => (
             <>
             <GameProvider>
               <NavBar />
-              {/* <ApplicationViews /> */}
+              <ApplicationViews />
             </GameProvider>
             </>
           )

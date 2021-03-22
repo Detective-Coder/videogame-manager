@@ -5,20 +5,20 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 export const NavBar = () => {
   const [searchTerms, setSearchTerms] = useState("")
-  // const {getGames} = useContext(GameContext)
+  const {getGames} = useContext(GameContext)
   const [games, setGames] = useState([])
 
   useEffect(() => {
-    // getGames()
+    getGames()
   }, [])
 
   useEffect(() => {
     if (searchTerms !== "") {
-      // If the search field is not blank, display matching animals
+      // If the search field is not blank, display matching games
       const subset = games.filter(game => game.title.toLowerCase().includes(searchTerms))
       setGames(subset)
     } else {
-      // If the search field is blank, display all animals
+      // If the search field is blank, display all games
       setGames(games)
     }
   }, [searchTerms, games])
@@ -33,13 +33,6 @@ export const NavBar = () => {
             <Link className="nav-link" to="/my-games">My Games</Link>
           </li>
         </ul>
-        <label htmlFor="search">Game Search: </label>
-        <input 
-          type="text"
-          className="input--wide"
-          onKeyUp={(event) => setSearchTerms(event.target.value)}
-          placeholder="Search for a game..."
-        />
         <span className="navbar-text">
           <ul className="nav nav-pills nav-fill">
             <li className="nav-item">

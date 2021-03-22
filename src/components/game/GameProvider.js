@@ -11,17 +11,21 @@ export const GameProvider = (props) => {
   const apiKey = "e1f9854a79mshacce72468e7cf33p1d5bb1jsna0dba16a5b1f"
 
   const getGames = () => {
-    return fetch("http://rawg-video-games-database.p.rapidapi.com/games", {
+    return fetch("https://rawg-video-games-database.p.rapidapi.com/games", {
       "method": "GET",
       "headers": {
-        "x-rapidapi-key": apiKey,
+        "x-rapidapi-key": "e1f9854a79mshacce72468e7cf33p1d5bb1jsna0dba16a5b1f",
         "x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com"
       }
     })
     .then((response) => response.json())
-    .then((x)=> {
-      console.log(x)
+    .then ((results)=> {
+      console.log(results)
+      setGames(results.results)
     })
+    .catch(err => {
+      console.error(err);
+    });
   }
 
   return (

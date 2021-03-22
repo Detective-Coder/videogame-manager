@@ -14,14 +14,7 @@
     }
   ],
   "games": [
-    {
-      "id": 1,
-      "userId": 1,
-      "name": "Mega Man",
-      "statusId": 1,
-      "genreId": 1,
-      "publisherId": 2
-    }
+    
   ],
   "status": [
     {
