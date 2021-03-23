@@ -1,10 +1,22 @@
-import React, {useContext, useState} from "react"
+import React, {useContext, useEffect, useState} from "react"
 import {GameContext} from "./GameProvider"
+import {GameCard} from "./GameCard"
 import "./Game.css"
 
 export const GameSearch = () => {
 //   const {setSearchTerms} = useContext(GameContext)
+const {games, searchGames} = useContext(GameContext)
 const [searchTerm, setSearchTerm] = useState("")
+
+  useEffect(() => {
+
+  }, [])
+
+  const handleControlledInputChange = (event) => {
+    const newTerm = {...searchTerm}
+    newTerm[event.target.name] = event.target.value
+    setSearchTerm(newTerm)
+  }
 
   return (
     <>
@@ -12,10 +24,19 @@ const [searchTerm, setSearchTerm] = useState("")
       <input 
         type="text"
         className="input--wide"
-        onKeyUp={(event) => setSearchTerm(event.target.value)}
         placeholder="Search for a game..."
+        name="search"
+        onChange={handleControlledInputChange}
       />
-      <button>Submit</button>
+      <button onClick={() => {searchGames(searchTerm.search)}}>Submit</button>
+      <div className="games">
+        {console.log(games)}
+        {
+          games.map(game => {
+            return <GameCard key={game.id} game={game} />
+          })
+        }
+      </div>
     </>
   )
 }

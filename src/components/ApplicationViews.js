@@ -10,6 +10,9 @@ export const ApplicationViews = () => (
         <Route exact path="/">
           <GameList />
         </Route>
+        <Route exact path="/search">
+          <GameSearch />
+        </Route>
       </GameProvider>
     </>
 )

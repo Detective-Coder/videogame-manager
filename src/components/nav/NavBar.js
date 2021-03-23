@@ -32,6 +32,9 @@ export const NavBar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="/my-games">My Games</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/search">Search</Link>
+          </li>
         </ul>
         <span className="navbar-text">
           <ul className="nav nav-pills nav-fill">
