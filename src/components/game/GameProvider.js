@@ -52,6 +52,7 @@ export const GameProvider = (props) => {
       value={{
         games, 
         getGames,
+        setGames,
         searchTerms,
         setSearchTerms,
         searchGames

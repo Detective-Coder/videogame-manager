@@ -5,11 +5,11 @@ import "./Game.css"
 
 export const GameSearch = () => {
 //   const {setSearchTerms} = useContext(GameContext)
-const {games, searchGames} = useContext(GameContext)
+const {games, searchGames, setGames} = useContext(GameContext)
 const [searchTerm, setSearchTerm] = useState("")
 
   useEffect(() => {
-
+    setGames([])
   }, [])
 
   const handleControlledInputChange = (event) => {
@@ -28,7 +28,7 @@ const [searchTerm, setSearchTerm] = useState("")
         name="search"
         onChange={handleControlledInputChange}
       />
-      <button onClick={() => {searchGames(searchTerm.search)}}>Submit</button>
+      <button onClick={() => {searchGames(searchTerm.search)}}>Search</button>
       <div className="games">
         {console.log(games)}
         {
