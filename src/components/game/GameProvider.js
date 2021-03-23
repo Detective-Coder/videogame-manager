@@ -47,6 +47,17 @@ export const GameProvider = (props) => {
     })
   }
 
+  const addGame = game => {
+    return fetch("http://locahost:8088/games", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(game)
+    })
+    .then(response => response.json())
+  }
+
   return (
     <GameContext.Provider
       value={{
@@ -55,7 +66,8 @@ export const GameProvider = (props) => {
         setGames,
         searchTerms,
         setSearchTerms,
-        searchGames
+        searchGames,
+        addGame
       }}
     >
       {props.children}
