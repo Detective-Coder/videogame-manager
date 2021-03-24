@@ -2,6 +2,7 @@ import React, { useContext } from "react"
 import {GameContext} from "./GameProvider"
 import {useHistory} from "react-router-dom"
 import "./GameCard.css"
+import { GameSearch } from "./GameSearch"
 
 
 
@@ -11,8 +12,15 @@ export const GameCard = ({game}) => {
 
   const handleClickSaveGame = (event) => {
     event.preventDefault()
-
-    addGame(game)
+    const newObject = {
+      background_image: game.background_image,
+      name: game.name,
+      genre: game.genres[0]?.name,
+      releaseDate: game.released,
+      rating: game.rating,
+      parentPlatform: game.parent_platforms[0].platform.name
+    }
+    addGame(newObject)
     .then(() => history.push("/my-games"))
   }
 
