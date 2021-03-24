@@ -48,7 +48,7 @@ export const GameProvider = (props) => {
   }
 
   const addGame = game => {
-    return fetch("http://locahost:8088/games", {
+    return fetch("http://localhost:8088/games", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -56,6 +56,12 @@ export const GameProvider = (props) => {
       body: JSON.stringify(game)
     })
     .then(response => response.json())
+  }
+
+  const getGameFromDatabase = () => {
+    return fetch("http://localhost:8088/games")
+    .then(res => res.json())
+    .then(setGames)
   }
 
   return (
@@ -67,7 +73,8 @@ export const GameProvider = (props) => {
         searchTerms,
         setSearchTerms,
         searchGames,
-        addGame
+        addGame,
+        getGameFromDatabase
       }}
     >
       {props.children}
