@@ -15,31 +15,62 @@
   ],
   "games": [
     {
-      "background_image": "https://media.rawg.io/media/games/d95/d950e5b8f44716cef0eee33f04b8cb54.jpg",
-      "name": "The Legend of Zelda: Twilight Princess",
-      "genre": "Action",
-      "releaseDate": "2006-11-19",
-      "rating": 4.39,
-      "parentPlatform": "Nintendo",
-      "id": 25088
-    },
-    {
       "background_image": "https://media.rawg.io/media/games/154/154fea9689109f26c49c6a2db6263ef9.jpg",
       "name": "Super Mario Bros.",
       "genre": "Platformer",
       "releaseDate": "1985-09-13",
       "rating": 4.28,
       "parentPlatform": "Nintendo",
-      "id": 25089
+      "statusId": 4,
+      "id": 25091
     },
     {
-      "background_image": "https://media.rawg.io/media/games/6fa/6fa8b2653502a9c134ec40c573d5d0cb.jpg",
-      "name": "Resident Evil: Village",
-      "genre": "Adventure",
-      "releaseDate": "2021-05-07",
-      "rating": 0,
+      "background_image": "https://media.rawg.io/media/screenshots/41d/41d61629335da0c673894fa4f113a6bb.jpg",
+      "name": "Super Smash Bros.",
+      "genre": "Fighting",
+      "releaseDate": "2014-09-13",
+      "rating": 4.15,
+      "parentPlatform": "Nintendo",
+      "statusId": 4,
+      "id": 25092
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/2ab/2ab7fb76bcc7ac73265ff3f949937e72.jpg",
+      "name": "Castlevania",
+      "genre": "Platformer",
+      "releaseDate": "1986-09-26",
+      "rating": 4.05,
       "parentPlatform": "PC",
-      "id": 25090
+      "statusId": 4,
+      "id": 25093
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/b38/b38e13e07bb509a13e2617008c2eb4cc.jpg",
+      "name": "Godzilla (1990)",
+      "genre": "Action",
+      "releaseDate": "1990-12-18",
+      "rating": 0,
+      "parentPlatform": "Nintendo",
+      "statusId": 4,
+      "id": 25094
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/d44/d443ae8ffc72fdb77a27207a196788e5.jpg",
+      "name": "Terminator: Resistance",
+      "genre": "Action",
+      "releaseDate": "2019-11-13",
+      "rating": 3.17,
+      "parentPlatform": "PC",
+      "statusId": 4,
+      "id": 25095
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/154/154fea9689109f26c49c6a2db6263ef9.jpg",
+      "name": "Super Mario Bros.",
+      "genre": "Platformer",
+      "rating": 4.28,
+      "statusId": 3,
+      "id": 25096
     }
   ],
   "status": [
@@ -54,6 +85,10 @@
     {
       "id": 3,
       "name": "playing"
+    },
+    {
+      "id": 4,
+      "name": "unassigned"
     }
   ],
   "genre": [

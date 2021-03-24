@@ -18,7 +18,8 @@ export const GameCard = ({game}) => {
       genre: game.genres[0]?.name,
       releaseDate: game.released,
       rating: game.rating,
-      parentPlatform: game.parent_platforms[0].platform.name
+      parentPlatform: game.parent_platforms[0].platform.name,
+      statusId: 4
     }
     addGame(newObject)
     .then(() => history.push("/my-games"))

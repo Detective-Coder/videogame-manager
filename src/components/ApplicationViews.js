@@ -8,7 +8,7 @@ export const ApplicationViews = () => (
     <>
       <GameProvider>
         <Route exact path="/">
-          <GameList />
+          
         </Route>
         <Route exact path="/search">
           <GameSearch />
