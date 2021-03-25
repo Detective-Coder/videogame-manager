@@ -40,6 +40,33 @@
       "parentPlatform": "PC",
       "statusId": 2,
       "id": 3
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/4f9/4f93ab4b7677c626a07f3e5bcb214337.jpg",
+      "name": "Castlevania II: Simon's Quest (1987)",
+      "genre": "Platformer",
+      "rating": 3.02,
+      "parentPlatform": "Nintendo",
+      "statusId": 3,
+      "id": 4
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/6c2/6c299f5dc9039c83b4c7a29b6830e29e.jpg",
+      "name": "Super Castlevania IV",
+      "genre": "Platformer",
+      "rating": 4.21,
+      "parentPlatform": "Nintendo",
+      "statusId": 2,
+      "id": 5
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/cee/cee577e2097a59b77193fe2bce94667d.jpg",
+      "name": "Resident Evil 7: Biohazard",
+      "genre": "Shooter",
+      "rating": 4.32,
+      "parentPlatform": "PC",
+      "statusId": 1,
+      "id": 6
     }
   ],
   "status": [

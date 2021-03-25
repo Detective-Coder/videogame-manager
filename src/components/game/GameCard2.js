@@ -22,6 +22,7 @@ export const GameCard2 = ({game}) => {
       statusId: 3,
       id: game.id
     })
+    .then(() => history.push("/"))
   }
 
   const handleSaveGamePlayNext = () => {
@@ -36,6 +37,7 @@ export const GameCard2 = ({game}) => {
       statusId: 2,
       id: game.id
     })
+    .then(() => history.push("/"))
   }
 
   const handleSaveGamePlayed = () => {
@@ -50,6 +52,7 @@ export const GameCard2 = ({game}) => {
       statusId: 1,
       id: game.id
     })
+    .then(() => history.push("/"))
   }
 
   const handleDeleteGame = () => {
