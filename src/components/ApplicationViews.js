@@ -3,12 +3,13 @@ import {Route} from "react-router-dom"
 import {GameSearch} from "./game/GameSearch"
 import {GameProvider} from "./game/GameProvider"
 import {GameList} from "./game/GameList"
+import { GameListHome } from "./game/GameListHome"
 
 export const ApplicationViews = () => (
     <>
       <GameProvider>
         <Route exact path="/">
-          
+          <GameListHome />
         </Route>
         <Route exact path="/search">
           <GameSearch />

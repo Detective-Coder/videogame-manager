@@ -24,12 +24,33 @@ export const GameCard2 = ({game}) => {
     })
   }
 
-  // const handleClickSaveGame = (event) => {
-  //   event.preventDefault()
+  const handleSaveGamePlayNext = () => {
 
-  //   addGame(game)
-  //   .then(() => history.push("/my-games"))
-  // }
+    updateGame({
+      background_image: game.background_image,
+      name: game.name,
+      genre: game.genre,
+      releaseDate: game.released,
+      rating: game.rating,
+      parentPlatform: game.parentPlatform,
+      statusId: 2,
+      id: game.id
+    })
+  }
+
+  const handleSaveGamePlayed = () => {
+
+    updateGame({
+      background_image: game.background_image,
+      name: game.name,
+      genre: game.genre,
+      releaseDate: game.released,
+      rating: game.rating,
+      parentPlatform: game.parentPlatform,
+      statusId: 1,
+      id: game.id
+    })
+  }
 
   return (
     <section className="game">
@@ -42,8 +63,14 @@ export const GameCard2 = ({game}) => {
           event.preventDefault() //prevent browser from submitting the form and refreshing the page
           handleSaveGamePlaying()
         }}>Playing</button>
-        <button>Play Next</button>
-        <button>Played</button>
+        <button onClick={(event) => {
+          event.preventDefault()
+          handleSaveGamePlayNext()
+        }}>Play Next</button>
+        <button onClick={(event) => {
+          event.preventDefault()
+          handleSaveGamePlayed()
+        }}>Played</button>
       </div>
     </section>
   )  
