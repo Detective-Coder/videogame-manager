@@ -7,7 +7,7 @@ import { GameSearch } from "./GameSearch"
 
 
 export const GameCard2 = ({game}) => {
-  const {addGame, updateGame} = useContext(GameContext)
+  const {addGame, updateGame, deleteGame} = useContext(GameContext)
   const history = useHistory()
 
   const handleSaveGamePlaying = () => {
@@ -52,6 +52,10 @@ export const GameCard2 = ({game}) => {
     })
   }
 
+  const handleDeleteGame = () => {
+    deleteGame(game.id)
+  }
+
   return (
     <section className="game">
       <img src={game.background_image} height="150" width="250" />
@@ -71,6 +75,7 @@ export const GameCard2 = ({game}) => {
           event.preventDefault()
           handleSaveGamePlayed()
         }}>Played</button>
+        <button onClick={handleDeleteGame}>Delete</button>
       </div>
     </section>
   )  

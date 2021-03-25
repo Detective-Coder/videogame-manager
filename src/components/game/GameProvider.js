@@ -74,6 +74,13 @@ export const GameProvider = (props) => {
     })
   }
 
+  const deleteGame = gameId => {
+    return fetch(`http://localhost:8088/games/${gameId}`, {
+      method: "DELETE"
+    })
+    .then(getGameFromDatabase)
+  }
+
   return (
     <GameContext.Provider
       value={{
@@ -85,7 +92,8 @@ export const GameProvider = (props) => {
         searchGames,
         addGame,
         getGameFromDatabase,
-        updateGame
+        updateGame,
+        deleteGame
       }}
     >
       {props.children}
