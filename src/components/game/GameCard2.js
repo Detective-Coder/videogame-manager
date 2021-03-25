@@ -7,18 +7,20 @@ import { GameSearch } from "./GameSearch"
 
 
 export const GameCard2 = ({game}) => {
-  const {addGame} = useContext(GameContext)
+  const {addGame, updateGame} = useContext(GameContext)
   const history = useHistory()
 
   const handleSaveGamePlaying = () => {
 
-    addGame({
+    updateGame({
       background_image: game.background_image,
       name: game.name,
       genre: game.genre,
       releaseDate: game.released,
       rating: game.rating,
-      statusId: 3
+      parentPlatform: game.parentPlatform,
+      statusId: 3,
+      id: game.id
     })
   }
 

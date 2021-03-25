@@ -64,6 +64,16 @@ export const GameProvider = (props) => {
     .then(setGames)
   }
 
+  const updateGame = (game) => {
+    return fetch(`http://localhost:8088/games/${game.id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(game)
+    })
+  }
+
   return (
     <GameContext.Provider
       value={{
@@ -74,7 +84,8 @@ export const GameProvider = (props) => {
         setSearchTerms,
         searchGames,
         addGame,
-        getGameFromDatabase
+        getGameFromDatabase,
+        updateGame
       }}
     >
       {props.children}
