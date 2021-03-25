@@ -2,7 +2,6 @@ import React, { useContext } from "react"
 import {GameContext} from "./GameProvider"
 import {useHistory} from "react-router-dom"
 import "./GameCard.css"
-import { GameSearch } from "./GameSearch"
 
 
 

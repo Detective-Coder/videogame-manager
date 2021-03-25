@@ -47,7 +47,7 @@
       "genre": "Platformer",
       "rating": 3.02,
       "parentPlatform": "Nintendo",
-      "statusId": 3,
+      "statusId": 2,
       "id": 4
     },
     {
@@ -67,6 +67,15 @@
       "parentPlatform": "PC",
       "statusId": 1,
       "id": 6
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/6c0/6c00ee85d1344f58c469e8e47fd8ae7c.jpg",
+      "name": "Final Fantasy VII",
+      "genre": "Adventure",
+      "rating": 4.46,
+      "parentPlatform": "PC",
+      "statusId": 3,
+      "id": 7
     }
   ],
   "status": [
@@ -85,22 +94,6 @@
     {
       "id": 4,
       "name": "unassigned"
-    }
-  ],
-  "genre": [
-    {
-      "id": 1,
-      "name": "action"
-    }
-  ],
-  "publisher": [
-    {
-      "id": 1,
-      "name": "Electronic Arts"
-    },
-    {
-      "id": 2,
-      "name": "Capcom"
     }
   ]
 }

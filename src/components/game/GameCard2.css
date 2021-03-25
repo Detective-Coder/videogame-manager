@@ -1,0 +1,27 @@
+.my-games {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  line-height: 1rem;
+}
+
+.my-games img {
+  margin-right: 5rem;
+}
+
+.my-games h2 {
+  font-size: 1.5rem;
+}
+
+.game__name {
+  text-transform: uppercase;
+}
+
+.game__text button {
+  background-color: rgb(1, 179, 1);
+  font-weight: bold;
+  padding: .3rem;
+  border-radius: 8px;
+}
+
+

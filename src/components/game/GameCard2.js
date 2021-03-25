@@ -1,9 +1,7 @@
 import React, { useContext } from "react"
 import {GameContext} from "./GameProvider"
 import {useHistory} from "react-router-dom"
-import "./GameCard.css"
-import { GameSearch } from "./GameSearch"
-
+import "./GameCard2.css"
 
 
 export const GameCard2 = ({game}) => {
@@ -60,7 +58,7 @@ export const GameCard2 = ({game}) => {
   }
 
   return (
-    <section className="game">
+    <section className="my-games">
       <img src={game.background_image} height="150" width="250" />
       <div className="game__text">
         <h2 className="game__name">{game.name}</h2>

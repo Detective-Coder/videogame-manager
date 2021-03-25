@@ -1,0 +1,27 @@
+.games-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.games-container h1 {
+  margin: 4rem auto;
+  text-transform: uppercase;
+}
+
+.games-columns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.games-columns h2 {
+  background: rgb(1, 179, 1);
+  color: black;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: black;
+  color: rgb(1, 179, 1);
+}
+

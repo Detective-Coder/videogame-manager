@@ -1,6 +1,7 @@
 import React, {useContext, useEffect} from "react"
 import {GameContext} from "./GameProvider"
 import {GameCard2} from "./GameCard2"
+import "./GameList.css"
 
 export const GameList = () => {
   // This state changes when getGames() is invoked
@@ -14,7 +15,7 @@ export const GameList = () => {
   return (
     <>
       <div className="games">
-        {console.log(games)}
+        <h1>Main List</h1>
         {
           games.map(game => {
             return <GameCard2 key={game.id} game={game} />
