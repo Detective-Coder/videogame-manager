@@ -11,5 +11,9 @@
 }
 
 .navbar ul {
-  margin-right: 10rem;
+  margin-right: 8rem;
+}
+
+.nav-item {
+  text-transform: uppercase;
 }
