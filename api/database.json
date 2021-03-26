@@ -11,18 +11,15 @@
       "firstName": "Aaron",
       "lastName": "Frankenfield",
       "id": 2
+    },
+    {
+      "email": "marritt@k12.wv.us",
+      "firstName": "Mary",
+      "lastName": "Arritt",
+      "id": 3
     }
   ],
   "games": [
-    {
-      "background_image": "https://media.rawg.io/media/games/154/154fea9689109f26c49c6a2db6263ef9.jpg",
-      "name": "Super Mario Bros.",
-      "genre": "Platformer",
-      "rating": 4.28,
-      "parentPlatform": "Nintendo",
-      "statusId": 3,
-      "id": 1
-    },
     {
       "background_image": "https://media.rawg.io/media/games/2ab/2ab7fb76bcc7ac73265ff3f949937e72.jpg",
       "name": "Castlevania",
@@ -67,6 +64,15 @@
       "parentPlatform": "PC",
       "statusId": 3,
       "id": 7
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/b12/b12ed274eed80e4aced37badf228d1cf.jpg",
+      "name": "Rampage",
+      "genre": "Arcade",
+      "rating": 3.6,
+      "parentPlatform": "PC",
+      "statusId": 2,
+      "id": 9
     }
   ],
   "status": [

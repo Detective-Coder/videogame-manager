@@ -25,7 +25,7 @@ export const GameCard = ({game}) => {
   }
 
   return (
-    <section className="game">
+    <section className="game-list">
       <img src={game.background_image} height="150" width="250" />
       <div className="game__text">
         <h2 className="game__name">{game.name}</h2>

@@ -52,14 +52,34 @@ fieldset {
   z-index: 1;
   min-height: 25rem;
   min-width: 45rem;
-  background-color: hsla(0,0%,100%,0.40);
+  background-color: black;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 30rem;
+}
+
+.form--login h1 {
+  margin: 2rem 0;
+}
+
+.form--login button {
+  background-color: rgb(1, 179, 1);
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .button--close {
   position: relative;
   bottom: -2rem;
+}
+
+.link--register {
+  color: rgb(1, 179, 1);
+  max-width: 10rem;
+  margin: 0 auto;
 }
 
 .dialog {

@@ -4,7 +4,7 @@
 }
 
 .games-container h1 {
-  margin: 4rem auto;
+  margin: 3rem auto 2.5rem;
   text-transform: uppercase;
 }
 
@@ -16,13 +16,23 @@
 .games-columns h2 {
   background: rgb(1, 179, 1);
   color: black;
-  padding: 2rem;
+  padding: 1.5rem;
   text-transform: uppercase;
   border-radius: 10px;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
 }
 
 body {
   background-color: black;
   color: rgb(1, 179, 1);
+}
+
+.games-playing,
+.games-next,
+.games-played {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 

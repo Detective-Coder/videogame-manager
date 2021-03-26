@@ -20,16 +20,18 @@ const [searchTerm, setSearchTerm] = useState("")
 
   return (
     <>
-      <label htmlFor="search">Game Search: </label>
-      <input 
-        type="text"
-        className="input--wide"
-        placeholder="Search for a game..."
-        name="search"
-        onChange={handleControlledInputChange}
-      />
-      <button onClick={() => {searchGames(searchTerm.search)}}>Search</button>
-      <div className="games">
+      <div className="game-search">
+        <label htmlFor="search">Game Search: </label>
+        <input 
+          type="text"
+          className="input--wide"
+          placeholder="Search for a game..."
+          name="search"
+          onChange={handleControlledInputChange}
+        />
+        <button onClick={() => {searchGames(searchTerm.search)}}>Search</button>
+      </div>
+      <div className="game-results">
         {console.log(games)}
         {
           games.map(game => {

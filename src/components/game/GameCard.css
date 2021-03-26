@@ -1,13 +1,11 @@
-.game {
+.game-list {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   margin-top: 2rem;
-  margin-left: 1rem;
+  margin-left: 5rem;
 }
 
-.game img,
-.game h2,
-.game__text button {
+.game-list img {
   margin-right: 1rem;
 }
 
