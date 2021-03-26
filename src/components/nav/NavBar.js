@@ -3,6 +3,7 @@ import {GameContext} from "../game/GameProvider"
 import {Link} from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./NavBar.css"
+import logo from "../images/gaming-logo.jpg"
 
 export const NavBar = () => {
   const [searchTerms, setSearchTerms] = useState("")
@@ -26,6 +27,7 @@ export const NavBar = () => {
 
     return (
       <nav className="navbar flex-md-nowrap p-0 shadow">
+        <img src={logo} alt="logo" />
         <ul className="nav nav-pills nav-fill">
           <li className="nav-item">
             <Link className="nav-link" to="/">Home</Link>
