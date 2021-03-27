@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "firstName": "Aaron",
-      "lastName": "Frankenfield",
-      "email": "aaronfrankenfield@gmail.com"
-    },
-    {
       "email": "googliemooblie@yahoo.com",
       "firstName": "Aaron",
       "lastName": "Frankenfield",
@@ -17,6 +11,12 @@
       "firstName": "Mary",
       "lastName": "Arritt",
       "id": 3
+    },
+    {
+      "email": "aaronfrankenfield@gmail.com",
+      "firstName": "Aaron",
+      "lastName": "Frankenfield",
+      "id": 4
     }
   ],
   "games": [

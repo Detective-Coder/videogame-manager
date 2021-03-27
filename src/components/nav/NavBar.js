@@ -42,8 +42,9 @@ export const NavBar = () => {
         <span className="navbar-text">
           <ul className="nav nav-pills nav-fill">
             <li className="nav-item">
-              <Link className="nav-link" to="/login">Logout</Link>
-              {/* onClick={localStorage.removeItem("nutshell_user")} */}
+              <Link className="nav-link" to="/login" onClick={() => {
+                localStorage.removeItem("manager_user")}}>Logout</Link>
+              
             </li>
           </ul>
         </span>
