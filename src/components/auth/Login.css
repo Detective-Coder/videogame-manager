@@ -1,5 +1,8 @@
-.h1, h1 {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Work+Sans&display=swap');
+
+h1 {
   font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 fieldset {
@@ -13,6 +16,16 @@ fieldset {
   display: inline-block;
   margin: 0 auto;
   text-align: left;
+}
+
+.form--login h2 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.label {
+  text-transform: uppercase;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .form--login > fieldset > input[type="email"],
@@ -63,12 +76,15 @@ fieldset {
 
 .form--login h1 {
   margin: 2rem 0;
+  text-transform: uppercase;
 }
 
 .form--login button {
-  background-color: rgb(1, 179, 1);
+  background-color: rgba(255, 174, 0, 0.835);
   font-weight: bold;
   border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .button--close {
@@ -85,4 +101,9 @@ fieldset {
 .dialog {
   min-width: 15rem;
   min-height: 5rem;
+}
+
+.fieldset-label {
+  text-transform: uppercase;
+  font-family: 'Work Sans', sans-serif;
 }

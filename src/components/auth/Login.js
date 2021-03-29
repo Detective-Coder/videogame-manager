@@ -51,7 +51,7 @@ export const Login = props => {
           <h1>Video Game Manager</h1>
           <h2>Please Sign In</h2>
           <fieldset>
-            <label htmlFor="inputEmail">Email Address</label>
+            <label htmlFor="inputEmail" className="label">Email Address</label>
             <input ref={email} type="email"
               id="email"
               className="form-control"

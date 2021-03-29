@@ -59,15 +59,15 @@ export const Register = (props) => {
       <form className="form--login" onSubmit={handleRegister}>
         <h1 className="h3 mb-3 font-weight-normal">Please Register for Manager</h1>
         <fieldset>
-          <label htmlFor="firstName">First Name</label>
+          <label htmlFor="firstName" className="fieldset-label">First Name</label>
           <input ref={firstName} type="text" name="firstName" className="form-control" placeholder="First Name" required autoFocus />
         </fieldset>
         <fieldset>
-          <label htmlFor="lastName">Last Name</label>
+          <label htmlFor="lastName" className="fieldset-label">Last Name</label>
           <input ref={lastName} type="text" name="lastName" className="form-control" placeholder="Last Name" required />
         </fieldset>
         <fieldset>
-          <label htmlFor="inputEmail">Email Address</label>
+          <label htmlFor="inputEmail" className="fieldset-label">Email Address</label>
           <input ref={email} type="email" name="email" className="form-control" placeholder="Email Address" required />
         </fieldset>
         <fieldset>

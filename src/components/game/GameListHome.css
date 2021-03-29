@@ -6,6 +6,7 @@
 .games-container h1 {
   margin: 3rem auto 2.5rem;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .games-columns {
@@ -14,13 +15,14 @@
 }
 
 .games-columns h2 {
-  background: rgb(1, 179, 1);
+  background-color: rgba(255, 174, 0, 0.835);
   color: black;
   padding: 1.5rem;
   text-transform: uppercase;
   border-radius: 10px;
   margin-bottom: 2.5rem;
   font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
