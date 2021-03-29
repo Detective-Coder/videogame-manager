@@ -18,7 +18,8 @@ export const GameCard2 = ({game}) => {
       rating: game.rating,
       parentPlatform: game.parentPlatform,
       statusId: 3,
-      id: game.id
+      id: game.id,
+      userId: +localStorage.getItem("manager_user")
     })
     .then(() => history.push("/"))
   }
@@ -33,7 +34,8 @@ export const GameCard2 = ({game}) => {
       rating: game.rating,
       parentPlatform: game.parentPlatform,
       statusId: 2,
-      id: game.id
+      id: game.id,
+      userId: +localStorage.getItem("manager_user")
     })
     .then(() => history.push("/"))
   }
@@ -48,7 +50,8 @@ export const GameCard2 = ({game}) => {
       rating: game.rating,
       parentPlatform: game.parentPlatform,
       statusId: 1,
-      id: game.id
+      id: game.id,
+      userId: +localStorage.getItem("manager_user")
     })
     .then(() => history.push("/"))
   }

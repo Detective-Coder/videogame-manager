@@ -21,7 +21,7 @@ export const GameListHome = () => {
             <h2 className="games-playing__heading">Currently Playing</h2>
             {
               games.map(game => {
-                if (game.statusId === 3) {
+                if (game.statusId === 3 && game.userId === +localStorage.getItem("manager_user")) {
                   return <GameCardHome key={game.id} game={game} />
                 }
               })
@@ -31,7 +31,7 @@ export const GameListHome = () => {
             <h2 className="games-next__heading">Next to Play</h2>
             {
               games.map(game => {
-                if (game.statusId === 2) {
+                if (game.statusId === 2 && game.userId === +localStorage.getItem("manager_user")) {
                   return <GameCardHome key={game.id} game={game} />
                 }
               })
@@ -41,7 +41,7 @@ export const GameListHome = () => {
             <h2 className="games-played__heading">Games You've Played</h2>
             {
               games.map(game => {
-                if (game.statusId === 1) {
+                if (game.statusId === 1 && game.userId === +localStorage.getItem("manager_user")) {
                   return <GameCardHome key={game.id} game={game} />
                 }
               })

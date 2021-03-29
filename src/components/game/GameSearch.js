@@ -32,7 +32,6 @@ const [searchTerm, setSearchTerm] = useState("")
         <button onClick={() => {searchGames(searchTerm.search)}}>Search</button>
       </div>
       <div className="game-results">
-        {console.log(games)}
         {
           games.map(game => {
             return <GameCard key={game.id} game={game} />

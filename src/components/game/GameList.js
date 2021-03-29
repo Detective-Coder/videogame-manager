@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from "react"
+import React, {useContext, useEffect, useState} from "react"
 import {GameContext} from "./GameProvider"
 import {GameCard2} from "./GameCard2"
 import "./GameList.css"
@@ -18,7 +18,9 @@ export const GameList = () => {
         <h1>Main List</h1>
         {
           games.map(game => {
-            return <GameCard2 key={game.id} game={game} />
+            if (game.userId === +localStorage.getItem("manager_user")) {
+              return <GameCard2 key={game.id} game={game} />
+            }
           })
         }
       </div> 

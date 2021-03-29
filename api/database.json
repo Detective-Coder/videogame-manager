@@ -21,40 +21,64 @@
   ],
   "games": [
     {
+      "background_image": "https://media.rawg.io/media/games/154/154fea9689109f26c49c6a2db6263ef9.jpg",
+      "name": "Super Mario Bros.",
+      "genre": "Platformer",
+      "rating": 4.28,
+      "parentPlatform": "Nintendo",
+      "statusId": 3,
+      "id": 1,
+      "userId": 4
+    },
+    {
       "background_image": "https://media.rawg.io/media/games/2ab/2ab7fb76bcc7ac73265ff3f949937e72.jpg",
       "name": "Castlevania",
       "genre": "Platformer",
       "rating": 4.05,
       "parentPlatform": "PC",
       "statusId": 1,
-      "id": 2
+      "id": 2,
+      "userId": 4
     },
     {
-      "background_image": "https://media.rawg.io/media/screenshots/59f/59fb9bbd53886d2c0fb7511dc8f99ea1.jpg",
-      "name": "Resident Evil (2002)",
-      "genre": "Adventure",
-      "rating": 4.34,
+      "background_image": "https://media.rawg.io/media/screenshots/5ed/5edc7b2e33b55ddd487dcf0275db09a5.jpg",
+      "name": "Guitar Hero: Aerosmith",
+      "genre": "Arcade",
+      "rating": 3.62,
       "parentPlatform": "PC",
       "statusId": 2,
-      "id": 3
+      "id": 4,
+      "userId": 3
     },
     {
-      "background_image": "https://media.rawg.io/media/screenshots/6c2/6c299f5dc9039c83b4c7a29b6830e29e.jpg",
-      "name": "Super Castlevania IV",
-      "genre": "Platformer",
-      "rating": 4.21,
+      "background_image": "https://media.rawg.io/media/games/4da/4da63441cb94d7adb4d954871b65db30.jpg",
+      "name": "Super Mario Kart",
+      "genre": "Racing",
+      "rating": 4.04,
       "parentPlatform": "Nintendo",
-      "statusId": 2,
-      "id": 5
+      "statusId": 3,
+      "id": 5,
+      "userId": 3
     },
     {
-      "background_image": "https://media.rawg.io/media/games/cee/cee577e2097a59b77193fe2bce94667d.jpg",
-      "name": "Resident Evil 7: Biohazard",
-      "genre": "Shooter",
-      "rating": 4.32,
-      "parentPlatform": "PC",
+      "background_image": "https://media.rawg.io/media/screenshots/374/37428e70248ebdbc11ee628dda3eb88e.jpg",
+      "name": "Kirby's Adventure (1993)",
+      "genre": "Platformer",
+      "rating": 4.08,
+      "parentPlatform": "Nintendo",
       "statusId": 1,
-      "id": 6
+      "id": 6,
+      "userId": 3
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/214/214b29aeff13a0ae6a70fc4426e85991.jpg",
+      "name": "Bloodborne",
+      "genre": "Action",
+      "rating": 4.4,
+      "parentPlatform": "PlayStation",
+      "statusId": 2,
+      "id": 7,
+      "userId": 4
     },
     {
       "background_image": "https://media.rawg.io/media/games/6c0/6c00ee85d1344f58c469e8e47fd8ae7c.jpg",
@@ -63,16 +87,8 @@
       "rating": 4.46,
       "parentPlatform": "PC",
       "statusId": 3,
-      "id": 7
-    },
-    {
-      "background_image": "https://media.rawg.io/media/screenshots/b12/b12ed274eed80e4aced37badf228d1cf.jpg",
-      "name": "Rampage",
-      "genre": "Arcade",
-      "rating": 3.6,
-      "parentPlatform": "PC",
-      "statusId": 2,
-      "id": 9
+      "id": 8,
+      "userId": 4
     }
   ],
   "status": [
