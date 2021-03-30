@@ -16,6 +16,7 @@ export const GameList = () => {
     <>
       <div className="games">
         <h1>Main List</h1>
+        <div className="games__column">
         {
           games.map(game => {
             if (game.userId === +localStorage.getItem("manager_user")) {
@@ -23,6 +24,7 @@ export const GameList = () => {
             }
           })
         }
+        </div>
       </div> 
     </>
   )

@@ -23,7 +23,7 @@
 }
 
 .game__text button {
-  background-color: rgba(255, 174, 0, 0.835);
+  background-color: #606261;
   font-weight: bold;
   padding: .3rem;
   border-radius: 8px;
