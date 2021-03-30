@@ -1,9 +1,10 @@
 .nav-link {
-  color: rgb(1, 179, 1)
+  color: #bb3135
 }
 
 .navbar {
-  border-bottom: 2px solid rgb(1, 179, 1);
+  border-bottom: 2px solid #bb3135;
+  background-color: black;
 }
 
 .navbar img {
