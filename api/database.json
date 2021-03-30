@@ -21,15 +21,52 @@
   ],
   "games": [
     {
-      "background_image": "https://media.rawg.io/media/games/cee/cee577e2097a59b77193fe2bce94667d.jpg",
-      "name": "Resident Evil 7: Biohazard",
-      "genre": "Shooter",
-      "releaseDate": "2017-01-23",
-      "rating": 4.32,
+      "background_image": "https://media.rawg.io/media/games/84d/84da2ac3fdfc6507807a1808595afb12.jpg",
+      "name": "Grand Theft Auto V",
+      "genre": "Adventure",
+      "releaseDate": "2013-09-17",
+      "rating": 4.48,
+      "parentPlatform": "PC",
+      "statusId": 2,
+      "id": 8,
+      "userId": 4,
+      "gameId": 3498
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/ed6/ed6f91a6ec54be79d4ce183b9b0ba60b.jpg",
+      "name": "Super Mario Bros. 35",
+      "genre": "Platformer",
+      "releaseDate": "2020-10-01",
+      "rating": 4.13,
+      "parentPlatform": "Nintendo",
+      "statusId": 3,
+      "id": 9,
+      "userId": 4,
+      "gameId": 487915
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/2ab/2ab7fb76bcc7ac73265ff3f949937e72.jpg",
+      "name": "Castlevania",
+      "genre": "Platformer",
+      "releaseDate": "1986-09-26",
+      "rating": 4.05,
       "parentPlatform": "PC",
       "statusId": 1,
-      "id": 5,
-      "userId": 4
+      "id": 10,
+      "userId": 4,
+      "gameId": 25137
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/6c0/6c00ee85d1344f58c469e8e47fd8ae7c.jpg",
+      "name": "Final Fantasy VII",
+      "genre": "Adventure",
+      "releaseDate": "1997-01-31",
+      "rating": 4.46,
+      "parentPlatform": "PC",
+      "statusId": 3,
+      "id": 11,
+      "userId": 4,
+      "gameId": 52939
     }
   ],
   "status": [

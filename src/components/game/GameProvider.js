@@ -64,6 +64,11 @@ export const GameProvider = (props) => {
     .then(setGames)
   }
 
+  const getGameById = (gameId) => {
+    return fetch(`http://localhost:8088/games/${gameId}`)
+    .then(res => res.json())
+  }
+
   const updateGame = (game) => {
     return fetch(`http://localhost:8088/games/${game.id}`, {
       method: "PUT",
@@ -93,7 +98,8 @@ export const GameProvider = (props) => {
         addGame,
         getGameFromDatabase,
         updateGame,
-        deleteGame
+        deleteGame,
+        getGameById
       }}
     >
       {props.children}

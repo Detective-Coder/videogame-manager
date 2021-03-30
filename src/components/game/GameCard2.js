@@ -20,6 +20,7 @@ export const GameCard2 = ({game}) => {
       statusId: 3,
       id: game.id,
       userId: +localStorage.getItem("manager_user"),
+      gameId: game.gameId
     })
     .then(() => history.push("/"))
   }
@@ -36,6 +37,7 @@ export const GameCard2 = ({game}) => {
       statusId: 2,
       id: game.id,
       userId: +localStorage.getItem("manager_user"),
+      gameId: game.gameId
     })
     .then(() => history.push("/"))
   }
@@ -52,6 +54,7 @@ export const GameCard2 = ({game}) => {
       statusId: 1,
       id: game.id,
       userId: +localStorage.getItem("manager_user"),
+      gameId: game.gameId
     })
     .then(() => history.push("/"))
   }
