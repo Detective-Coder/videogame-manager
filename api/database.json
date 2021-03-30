@@ -149,6 +149,16 @@
       "statusId": 1,
       "id": 14,
       "userId": 4
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/b21/b21555abc69d04d9b5d7663d478ca81e.jpg",
+      "name": "Pac-Man",
+      "genre": "Casual",
+      "rating": 4.08,
+      "parentPlatform": "PC",
+      "statusId": 1,
+      "id": 15,
+      "userId": 4
     }
   ],
   "status": [
