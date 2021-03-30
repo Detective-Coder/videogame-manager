@@ -159,6 +159,45 @@
       "statusId": 1,
       "id": 15,
       "userId": 4
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/637/637d7dc2f44d0f6ddd3ee2c0b1366962.jpg",
+      "name": "Tetris (1984)",
+      "genre": "Puzzle",
+      "rating": 4.37,
+      "parentPlatform": "Nintendo",
+      "statusId": 3,
+      "id": 16,
+      "userId": 3
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/56f/56fee2a07b63e20e282cda541d01eeb4.jpg",
+      "name": "Guitar Hero",
+      "genre": "Simulation",
+      "rating": 3.92,
+      "parentPlatform": "PlayStation",
+      "statusId": 2,
+      "id": 17,
+      "userId": 3
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/51c/51c79cb460eff4633403ab7b02ced296.jpg",
+      "name": "Guitar Hero: Metallica",
+      "genre": "Arcade",
+      "rating": 4.2,
+      "parentPlatform": "PlayStation",
+      "statusId": 1,
+      "id": 18,
+      "userId": 3
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/d52/d52afddc37af47e86700b1e25b1c02fe.jpg",
+      "name": "Defender",
+      "rating": 3.4,
+      "parentPlatform": "Xbox",
+      "statusId": 3,
+      "id": 19,
+      "userId": 4
     }
   ],
   "status": [

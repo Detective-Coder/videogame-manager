@@ -16,6 +16,7 @@ fieldset {
   display: inline-block;
   margin: 0 auto;
   text-align: left;
+  margin-top: 5rem;
 }
 
 .form--login h2 {
@@ -26,6 +27,7 @@ fieldset {
 .label {
   text-transform: uppercase;
   font-family: 'Work Sans', sans-serif;
+  margin-left: 8rem;
 }
 
 .form--login > fieldset > input[type="email"],
@@ -57,13 +59,13 @@ fieldset {
 
 .container--login {
   text-align: center;
+  padding: 5rem;
 }
 
 .form--login {
   background-position-x: right;
-  background-image: url();
   z-index: 1;
-  min-height: 25rem;
+  min-height: 40rem;
   min-width: 45rem;
   background-color: black;
   background-blend-mode: overlay;
@@ -72,6 +74,8 @@ fieldset {
   flex-direction: column;
   justify-content: space-evenly;
   max-width: 30rem;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .form--login h1 {
@@ -80,7 +84,7 @@ fieldset {
 }
 
 .form--login button {
-  background-color: rgba(255, 174, 0, 0.835);
+  background-color: #606261;
   font-weight: bold;
   border-radius: 5px;
   text-transform: uppercase;
@@ -93,7 +97,7 @@ fieldset {
 }
 
 .link--register {
-  color: rgb(1, 179, 1);
+  color: #bb3135;
   max-width: 10rem;
   margin: 0 auto;
 }
@@ -106,4 +110,9 @@ fieldset {
 .fieldset-label {
   text-transform: uppercase;
   font-family: 'Work Sans', sans-serif;
+  margin-left: 3rem;
+}
+
+.email-label {
+  margin-left: 8rem;
 }

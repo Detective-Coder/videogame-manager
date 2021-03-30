@@ -4,6 +4,7 @@
   align-items: center;
   max-width: 30rem;
   height: 4rem;
+  margin: 2rem auto;
 }
 
 .game-search label {
@@ -12,8 +13,12 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+.game-search input {
+  padding-left: 8px;
+}
+
 .game-search button {
-  background-color: rgb(1, 179, 1);
+  background-color: #606261;
   font-weight: bold;
   border-radius: 5px;
   text-transform: uppercase;
@@ -23,4 +28,8 @@
 .game-results {
   display: flex;
   flex-direction: column;
+  background-color: black;
+  max-width: 60rem;
+  padding: 2rem;
+  margin: 0 auto;
 }

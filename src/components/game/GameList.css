@@ -13,5 +13,6 @@
 
 .games__column {
   background-color: black;
-  padding-right: 4rem;
+  padding: 0 4rem 2rem 0;
+
 }
