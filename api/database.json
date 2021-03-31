@@ -67,6 +67,18 @@
       "id": 11,
       "userId": 4,
       "gameId": 52939
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/f6f/f6f39c5b56413f7f4513b25989a1b747.jpg",
+      "name": "Resident Evil 6",
+      "genre": "Shooter",
+      "releaseDate": "2012-10-02",
+      "rating": 3.36,
+      "parentPlatform": "PC",
+      "statusId": 2,
+      "id": 12,
+      "userId": 4,
+      "gameId": 2623
     }
   ],
   "status": [

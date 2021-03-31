@@ -6,6 +6,7 @@ export const GameContext = createContext()
 // This component establishes what data can be used
 export const GameProvider = (props) => {
   const [games, setGames] = useState([])
+  const [gameDetail, setGameDetail] = useState([])
   const [searchTerms, setSearchTerms] = useState("")
 
   const apiKey = "e1f9854a79mshacce72468e7cf33p1d5bb1jsna0dba16a5b1f"
@@ -45,6 +46,23 @@ export const GameProvider = (props) => {
     .catch(err => {
       console.error(err)
     })
+  }
+
+  const gameDescription = (gameId) => {
+    return fetch(`https://rawg-video-games-database.p.rapidapi.com/games/${gameId}`, {
+      "method": "GET",
+      "headers": {
+        "x-rapidapi-key": "e1f9854a79mshacce72468e7cf33p1d5bb1jsna0dba16a5b1f",
+        "x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com"
+      }
+    })
+    .then((response) => response.json())
+    .then(response => {
+      setGameDetail(response)
+    })
+    .catch(err => {
+      console.error(err);
+    });
   }
 
   const addGame = game => {
@@ -99,7 +117,10 @@ export const GameProvider = (props) => {
         getGameFromDatabase,
         updateGame,
         deleteGame,
-        getGameById
+        getGameById,
+        gameDescription,
+        gameDetail, 
+        setGameDetail
       }}
     >
       {props.children}
