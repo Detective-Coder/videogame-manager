@@ -1,23 +1,24 @@
 import React, { useContext, useEffect, useRef, useState } from "react"
 import { GameContext } from "./GameProvider"
-import { useParams, useHistory } from "react-router-dom"
+import { useParams } from "react-router-dom"
+import "./GameDetail.css"
 
 export const GameDetail = () => {
   const { getGameById, gameDescription, gameDetail } = useContext(GameContext)
-  const {pathId} = useParams()
+  const {gameNumber} = useParams()
   const [game, setGame] = useState({})
   const gameDetailData = useRef()
 
 
   useEffect(() => {
-    getGameById(pathId)
+    getGameById(gameDetail.id)
     .then((response) => {
       console.log(response)
       gameDetailData.current = response
     })
     .then(() => {
-      console.log(gameDetailData.current.gameId)
-      gameDescription(gameDetailData.current.gameId)})
+      console.log(gameDetailData.current.gameNumber)
+      gameDescription(gameDetailData.current.gameNumber)})
 
   }, [])
 

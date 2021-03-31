@@ -54,13 +54,17 @@ export const GameCard2 = ({game}) => {
       statusId: 1,
       id: game.id,
       userId: +localStorage.getItem("manager_user"),
-      gameId: game.gameId
+      gameNumber: game.gameNumber
     })
     .then(() => history.push("/"))
   }
 
   const handleDeleteGame = () => {
+    console.log(game.id)
     deleteGame(game.id)
+    .then(() => {
+      history.push("/my-games")
+    })
   }
 
   return (

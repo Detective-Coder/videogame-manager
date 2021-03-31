@@ -21,64 +21,27 @@
   ],
   "games": [
     {
-      "background_image": "https://media.rawg.io/media/games/84d/84da2ac3fdfc6507807a1808595afb12.jpg",
-      "name": "Grand Theft Auto V",
-      "genre": "Adventure",
-      "releaseDate": "2013-09-17",
-      "rating": 4.48,
-      "parentPlatform": "PC",
-      "statusId": 2,
-      "id": 8,
-      "userId": 4,
-      "gameId": 3498
-    },
-    {
-      "background_image": "https://media.rawg.io/media/screenshots/ed6/ed6f91a6ec54be79d4ce183b9b0ba60b.jpg",
-      "name": "Super Mario Bros. 35",
+      "background_image": "https://media.rawg.io/media/games/154/154fea9689109f26c49c6a2db6263ef9.jpg",
+      "name": "Super Mario Bros.",
       "genre": "Platformer",
-      "releaseDate": "2020-10-01",
-      "rating": 4.13,
+      "releaseDate": "1985-09-13",
+      "rating": 4.28,
       "parentPlatform": "Nintendo",
       "statusId": 3,
-      "id": 9,
-      "userId": 4,
-      "gameId": 487915
+      "id": 1,
+      "userId": 4
     },
     {
-      "background_image": "https://media.rawg.io/media/games/2ab/2ab7fb76bcc7ac73265ff3f949937e72.jpg",
-      "name": "Castlevania",
+      "background_image": "https://media.rawg.io/media/screenshots/092/092fc1910f067a95a07c0fbfdbe25f03.jpg",
+      "name": "Super Mario Bros. 3",
       "genre": "Platformer",
-      "releaseDate": "1986-09-26",
-      "rating": 4.05,
-      "parentPlatform": "PC",
+      "releaseDate": "1988-10-23",
+      "rating": 4.39,
+      "parentPlatform": "Nintendo",
       "statusId": 1,
-      "id": 10,
+      "id": 2,
       "userId": 4,
-      "gameId": 25137
-    },
-    {
-      "background_image": "https://media.rawg.io/media/games/6c0/6c00ee85d1344f58c469e8e47fd8ae7c.jpg",
-      "name": "Final Fantasy VII",
-      "genre": "Adventure",
-      "releaseDate": "1997-01-31",
-      "rating": 4.46,
-      "parentPlatform": "PC",
-      "statusId": 3,
-      "id": 11,
-      "userId": 4,
-      "gameId": 52939
-    },
-    {
-      "background_image": "https://media.rawg.io/media/games/f6f/f6f39c5b56413f7f4513b25989a1b747.jpg",
-      "name": "Resident Evil 6",
-      "genre": "Shooter",
-      "releaseDate": "2012-10-02",
-      "rating": 3.36,
-      "parentPlatform": "PC",
-      "statusId": 2,
-      "id": 12,
-      "userId": 4,
-      "gameId": 2623
+      "gameNumber": 24030
     }
   ],
   "status": [

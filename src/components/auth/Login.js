@@ -49,7 +49,7 @@ export const Login = props => {
       <section>
         <form className="form--login" onSubmit={handleLogin}>
           <h1>Video Game Manager</h1>
-          <img src="https://secure.img1-fg.wfcdn.com/im/18507822/resize-h800%5Ecompr-r85/1408/140862819/Sexy+Kiss+Graphic+Art+on+Wrapped+Canvas.jpg" height="200" />
+          <img src="https://st2.depositphotos.com/26272052/42979/v/600/depositphotos_429796046-stock-video-green-line-gamepad-icon-isolated.jpg" height="200" />
           <h2>Please Sign In</h2>
           <fieldset>
             <label htmlFor="inputEmail" className="label">Email Address</label>

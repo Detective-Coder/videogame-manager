@@ -4,7 +4,6 @@ import {Login} from "./auth/Login"
 import {Register} from "./auth/Register"
 import {NavBar} from "./nav/NavBar"
 import {ApplicationViews} from "./ApplicationViews"
-import "./Manager.css"
 import {GameProvider} from "./game/GameProvider"
 
 export const Manager = () => (

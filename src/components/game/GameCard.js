@@ -20,7 +20,7 @@ export const GameCard = ({game}) => {
       parentPlatform: game.parent_platforms[0].platform.name,
       statusId: 4,
       userId: +localStorage.getItem("manager_user"),
-      gameId: game.id
+      gameNumber: game.id
     }
     addGame(newObject)
     .then(() => history.push("/my-games"))
