@@ -28,7 +28,7 @@
 .game-results {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: rgb(19, 19, 19);
   max-width: 60rem;
   padding: 2rem;
   margin: 0 auto;

@@ -13,3 +13,13 @@
   display: flex;
   flex-direction: column;
 }
+
+.link {
+  color: #bb3135;
+}
+
+.link:hover {
+  color: #31bbaf;
+  text-decoration: none;
+}
+
