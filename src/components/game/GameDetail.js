@@ -5,28 +5,28 @@ import "./GameDetail.css"
 
 export const GameDetail = () => {
   const { getGameById, gameDescription, gameDetail } = useContext(GameContext)
-  const {gameNumber} = useParams()
   const [game, setGame] = useState({})
-  const gameDetailData = useRef()
-
+  const {gameId} = useParams()
 
   useEffect(() => {
-    getGameById(gameDetail.id)
+    getGameById(gameId)
     .then((response) => {
+      setGame(response)
       console.log(response)
-      gameDetailData.current = response
     })
-    .then(() => {
-      console.log(gameDetailData.current.gameNumber)
-      gameDescription(gameDetailData.current.gameNumber)})
-
+    // .then(gameDescription(game.gameNumber))
   }, [])
 
+  useEffect(() => {
+    gameDescription(game.gameNumber)
+  }, [game])
+
   console.log(gameDetail)
+
   return (
     <section className="game-details">
-      <img src={gameDetail.background_image} width="550" />
-      <h2 className="game-details__name">{gameDetail.name}</h2>
+      <img className="game-details__image" src={game.background_image} height="400" />
+      <h2 className="game-details__name">{game.name}</h2>
       <p>{gameDetail.description_raw}</p>
     </section>
   )

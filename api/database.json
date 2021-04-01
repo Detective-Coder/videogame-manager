@@ -29,19 +29,44 @@
       "parentPlatform": "Nintendo",
       "statusId": 3,
       "id": 1,
-      "userId": 4
+      "userId": 4,
+      "gameNumber": 25080
     },
     {
-      "background_image": "https://media.rawg.io/media/screenshots/092/092fc1910f067a95a07c0fbfdbe25f03.jpg",
-      "name": "Super Mario Bros. 3",
+      "background_image": "https://media.rawg.io/media/screenshots/ada/ada90672691bd75745ee88cd43d49657.jpg",
+      "name": "New Super Mario Bros.",
       "genre": "Platformer",
-      "releaseDate": "1988-10-23",
-      "rating": 4.39,
+      "releaseDate": "2006-05-15",
+      "rating": 4.12,
       "parentPlatform": "Nintendo",
-      "statusId": 1,
+      "statusId": 2,
       "id": 2,
       "userId": 4,
-      "gameNumber": 24030
+      "gameNumber": 24933
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/2ab/2ab7fb76bcc7ac73265ff3f949937e72.jpg",
+      "name": "Castlevania",
+      "genre": "Platformer",
+      "releaseDate": "1986-09-26",
+      "rating": 4.05,
+      "parentPlatform": "PC",
+      "statusId": 1,
+      "id": 3,
+      "userId": 4,
+      "gameNumber": 25137
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/b63/b6375459881d7226bd389b50a6e12cab.jpg",
+      "name": "Mega Man (1987)",
+      "genre": "Action",
+      "releaseDate": "1987-12-17",
+      "rating": 3.97,
+      "parentPlatform": "PlayStation",
+      "statusId": 1,
+      "id": 4,
+      "userId": 4,
+      "gameNumber": 53938
     }
   ],
   "status": [

@@ -18,7 +18,7 @@ export const ApplicationViews = () => (
         <Route exact path="/my-games">
           <GameList />
         </Route>
-        <Route exact path="/detail/:gameNumber(\d+)">
+        <Route exact path="/detail/:gameId(\d+)">
           <GameDetail />
         </Route>
       </GameProvider>

@@ -85,6 +85,7 @@ export const GameProvider = (props) => {
   const getGameById = (gameId) => {
     return fetch(`http://localhost:8088/games/${gameId}`)
     .then(res => res.json())
+   
   }
 
   const updateGame = (game) => {
