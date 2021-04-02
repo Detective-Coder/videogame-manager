@@ -23,6 +23,12 @@
       "firstName": "Courtney",
       "lastName": "Susman",
       "id": 5
+    },
+    {
+      "email": "aaron@yahoo.co0m",
+      "firstName": "Aaron",
+      "lastName": "F",
+      "id": 6
     }
   ],
   "games": [
@@ -121,6 +127,78 @@
       "id": 8,
       "userId": 5,
       "gameNumber": 56183
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/637/637d7dc2f44d0f6ddd3ee2c0b1366962.jpg",
+      "name": "Tetris (1984)",
+      "genre": "Puzzle",
+      "releaseDate": "1984-06-06",
+      "rating": 4.37,
+      "parentPlatform": "Nintendo",
+      "statusId": 1,
+      "id": 9,
+      "userId": 5,
+      "gameNumber": 52623
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/a8c/a8c59ffecdac593eb929a9f10f5be05c.jpg",
+      "name": "Tetris 99",
+      "genre": "Massively Multiplayer",
+      "releaseDate": "2019-02-13",
+      "rating": 4.32,
+      "parentPlatform": "Nintendo",
+      "statusId": 2,
+      "id": 10,
+      "userId": 5,
+      "gameNumber": 292838
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/6c0/6c00ee85d1344f58c469e8e47fd8ae7c.jpg",
+      "name": "Final Fantasy VII",
+      "genre": "Adventure",
+      "releaseDate": "1997-01-31",
+      "rating": 4.46,
+      "parentPlatform": "PC",
+      "statusId": 3,
+      "id": 11,
+      "userId": 5,
+      "gameNumber": 52939
+    },
+    {
+      "background_image": "https://media.rawg.io/media/games/154/154fea9689109f26c49c6a2db6263ef9.jpg",
+      "name": "Super Mario Bros.",
+      "genre": "Platformer",
+      "releaseDate": "1985-09-13",
+      "rating": 4.28,
+      "parentPlatform": "Nintendo",
+      "statusId": 3,
+      "id": 12,
+      "userId": 6,
+      "gameNumber": 25080
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/092/092fc1910f067a95a07c0fbfdbe25f03.jpg",
+      "name": "Super Mario Bros. 3",
+      "genre": "Platformer",
+      "releaseDate": "1988-10-23",
+      "rating": 4.39,
+      "parentPlatform": "Nintendo",
+      "statusId": 2,
+      "id": 13,
+      "userId": 6,
+      "gameNumber": 24030
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/ada/ada90672691bd75745ee88cd43d49657.jpg",
+      "name": "New Super Mario Bros.",
+      "genre": "Platformer",
+      "releaseDate": "2006-05-15",
+      "rating": 4.12,
+      "parentPlatform": "Nintendo",
+      "statusId": 1,
+      "id": 14,
+      "userId": 6,
+      "gameNumber": 24933
     }
   ],
   "status": [
