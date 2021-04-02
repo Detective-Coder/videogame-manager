@@ -22,3 +22,8 @@
 .nav-item {
   text-transform: uppercase;
 }
+
+.nav-link:hover {
+  color: #31bbaf;
+  text-decoration: none;
+}
