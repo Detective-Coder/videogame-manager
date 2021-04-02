@@ -13,7 +13,16 @@
   margin-bottom: 2rem;
 }
 
+.game-details h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .game-details p {
   max-width: 70rem;
   margin-bottom: 4rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  /* color: #31bbaf; */
+  color: rgb(219, 219, 219);
 }

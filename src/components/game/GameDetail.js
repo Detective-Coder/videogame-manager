@@ -21,8 +21,6 @@ export const GameDetail = () => {
     gameDescription(game.gameNumber)
   }, [game])
 
-  console.log(gameDetail)
-
   return (
     <section className="game-details">
       <img className="game-details__image" src={game.background_image} height="400" />
