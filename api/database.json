@@ -199,6 +199,30 @@
       "id": 14,
       "userId": 6,
       "gameNumber": 24933
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/59f/59fb9bbd53886d2c0fb7511dc8f99ea1.jpg",
+      "name": "Resident Evil (2002)",
+      "genre": "Adventure",
+      "releaseDate": "2002-03-22",
+      "rating": 4.34,
+      "parentPlatform": "PC",
+      "statusId": 2,
+      "id": 15,
+      "userId": 4,
+      "gameNumber": 56183
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/a8c/a8c59ffecdac593eb929a9f10f5be05c.jpg",
+      "name": "Tetris 99",
+      "genre": "Massively Multiplayer",
+      "releaseDate": "2019-02-13",
+      "rating": 4.32,
+      "parentPlatform": "Nintendo",
+      "statusId": 3,
+      "id": 16,
+      "userId": 4,
+      "gameNumber": 292838
     }
   ],
   "status": [
