@@ -39,7 +39,7 @@
       "releaseDate": "1985-09-13",
       "rating": 4.28,
       "parentPlatform": "Nintendo",
-      "statusId": 3,
+      "statusId": 1,
       "id": 1,
       "userId": 4,
       "gameNumber": 25080
@@ -67,18 +67,6 @@
       "id": 3,
       "userId": 4,
       "gameNumber": 25137
-    },
-    {
-      "background_image": "https://media.rawg.io/media/screenshots/b63/b6375459881d7226bd389b50a6e12cab.jpg",
-      "name": "Mega Man (1987)",
-      "genre": "Action",
-      "releaseDate": "1987-12-17",
-      "rating": 3.97,
-      "parentPlatform": "PlayStation",
-      "statusId": 1,
-      "id": 4,
-      "userId": 4,
-      "gameNumber": 53938
     },
     {
       "background_image": "https://media.rawg.io/media/games/154/154fea9689109f26c49c6a2db6263ef9.jpg",
@@ -223,6 +211,42 @@
       "id": 16,
       "userId": 4,
       "gameNumber": 292838
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/e6b/e6b4767e2c56c47920291e484b9caef6.jpg",
+      "name": "PAC-MAN 99",
+      "genre": "Arcade",
+      "releaseDate": "2021-04-07",
+      "rating": 0,
+      "parentPlatform": "Nintendo",
+      "statusId": 3,
+      "id": 17,
+      "userId": 4,
+      "gameNumber": 580967
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/adf/adf585204e6bae74797121a9d7345b7a.jpg",
+      "name": "Mega Man 3 (1990)",
+      "genre": "Action",
+      "releaseDate": "1990-09-28",
+      "rating": 4.01,
+      "parentPlatform": "PlayStation",
+      "statusId": 1,
+      "id": 18,
+      "userId": 4,
+      "gameNumber": 53940
+    },
+    {
+      "background_image": "https://media.rawg.io/media/screenshots/aeb/aebc0e47d6f64abe3f8eacad02f397cc.jpg",
+      "name": "Mega Man 2 (1988)",
+      "genre": "Platformer",
+      "releaseDate": "1988-12-24",
+      "rating": 4.31,
+      "parentPlatform": "PlayStation",
+      "statusId": 2,
+      "id": 19,
+      "userId": 4,
+      "gameNumber": 53939
     }
   ],
   "status": [
