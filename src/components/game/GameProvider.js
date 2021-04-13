@@ -66,7 +66,7 @@ export const GameProvider = (props) => {
   }
 
   const addGame = game => {
-    return fetch("https://videogame-api.herokuapp.com//games", {
+    return fetch("https://videogame-api.herokuapp.com/games", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -77,19 +77,19 @@ export const GameProvider = (props) => {
   }
 
   const getGameFromDatabase = () => {
-    return fetch("https://videogame-api.herokuapp.com//games")
+    return fetch("https://videogame-api.herokuapp.com/games")
     .then(res => res.json())
     .then(setGames)
   }
 
   const getGameById = (gameId) => {
-    return fetch(`https://videogame-api.herokuapp.com//games/${gameId}`)
+    return fetch(`https://videogame-api.herokuapp.com/games/${gameId}`)
     .then(res => res.json())
    
   }
 
   const updateGame = (game) => {
-    return fetch(`https://videogame-api.herokuapp.com//games/${game.id}`, {
+    return fetch(`https://videogame-api.herokuapp.com/games/${game.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -99,7 +99,7 @@ export const GameProvider = (props) => {
   }
 
   const deleteGame = gameId => {
-    return fetch(`https://videogame-api.herokuapp.com//games/${gameId}`, {
+    return fetch(`https://videogame-api.herokuapp.com/games/${gameId}`, {
       method: "DELETE"
     })
     .then(getGameFromDatabase)
