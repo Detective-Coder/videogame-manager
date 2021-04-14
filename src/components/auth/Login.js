@@ -18,7 +18,7 @@ export const Login = props => {
 
   // Declare a function to check if the user logging in has an existing account
   const existingUserCheck = () => {
-    return fetch(`http://localhost:8088/users?email=${email.current.value}`)
+    return fetch(`https://videogame-api.herokuapp.com/users?email=${email.current.value}`)
       .then(res => res.json())
       .then(user => user.length ? user[0] : false)
   }

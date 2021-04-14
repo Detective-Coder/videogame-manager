@@ -12,7 +12,7 @@ export const Register = (props) => {
 
   // Declare function to check if email is associated with an existing account
   const existingUserCheck = () => {
-    return fetch(`http://localhost:8088/users?email=${email.current.value}`)
+    return fetch(`https://videogame-api.herokuapp.com/users?email=${email.current.value}`)
       .then(res => res.json())
       .then(user => !!user.length)
   }
@@ -24,7 +24,7 @@ export const Register = (props) => {
     existingUserCheck()
       .then((userExists) => {
         if (!userExists) {
-          fetch("http://localhost:8088/users", {
+          fetch("https://videogame-api.herokuapp.com/users", {
             method: "POST",
             headers: {
               "Content-Type": "application/json"
