@@ -9,13 +9,13 @@ export const GameProvider = (props) => {
   const [gameDetail, setGameDetail] = useState([])
   const [searchTerms, setSearchTerms] = useState("")
 
-  const apiKey = "e1f9854a79mshacce72468e7cf33p1d5bb1jsna0dba16a5b1f"
+  const apiKey = "a318cabf23ae485585af5261b95fcc4f"
 
   const getGames = () => {
-    return fetch("https://rawg-video-games-database.p.rapidapi.com/games", {
+    return fetch("https://api.rawg.io/api/games", {
       "method": "GET",
       "headers": {
-        "x-rapidapi-key": "e1f9854a79mshacce72468e7cf33p1d5bb1jsna0dba16a5b1f",
+        "x-rapidapi-key": "a318cabf23ae485585af5261b95fcc4f",
         "x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com"
       }
     })
@@ -31,10 +31,10 @@ export const GameProvider = (props) => {
 
   const searchGames = (slug) => {
     slug = slug.split(' ').join('-').toLowerCase()
-    return fetch(`https://rawg-video-games-database.p.rapidapi.com/games?search=${slug}`, {
+    return fetch(`https://api.rawg.io/api/games?search=${slug}`, {
       "method": "GET",
       "headers": {
-        "x-rapidapi-key": "e1f9854a79mshacce72468e7cf33p1d5bb1jsna0dba16a5b1f",
+        "x-rapidapi-key": "a318cabf23ae485585af5261b95fcc4f",
         "x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com"
       }
     })
@@ -49,10 +49,10 @@ export const GameProvider = (props) => {
   }
 
   const gameDescription = (gameId) => {
-    return fetch(`https://rawg-video-games-database.p.rapidapi.com/games/${gameId}`, {
+    return fetch(`https://api.rawg.io/api/games/${gameId}`, {
       "method": "GET",
       "headers": {
-        "x-rapidapi-key": "e1f9854a79mshacce72468e7cf33p1d5bb1jsna0dba16a5b1f",
+        "x-rapidapi-key": "a318cabf23ae485585af5261b95fcc4f",
         "x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com"
       }
     })
